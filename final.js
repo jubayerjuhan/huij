@@ -52,6 +52,21 @@ const {
   BrazilPartFive,
   PolandAllData,
   PortugalAllData,
+  PhilippinesAllData,
+  VietnamAllData,
+  ThailandAllData,
+  SouthAfricaAllData,
+  ArgentinaAllData,
+  TaiwanAllData,
+  ChileAllData,
+  RomaniaAllData,
+  HungaryAllData,
+  BulgariaAllData,
+  CroatiaAllData,
+  LithuaniaAllData,
+  SloveniaAllData,
+  EstoniaAllData,
+  LuxembourgAllData,
 } = require("./categoryPayloads");
 
 // Create readline interface
@@ -790,6 +805,66 @@ async function main() {
       case "46":
         selectedCategory = PortugalAllData;
         categoryName = "portugal";
+        break;
+      case "47":
+        selectedCategory = PhilippinesAllData;
+        categoryName = "philippines";
+        break;
+      case "48":
+        selectedCategory = VietnamAllData;
+        categoryName = "vietnam";
+        break;
+      case "49":
+        selectedCategory = ThailandAllData;
+        categoryName = "thailand";
+        break;
+      case "50":
+        selectedCategory = SouthAfricaAllData;
+        categoryName = "south-africa";
+        break;
+      case "51":
+        selectedCategory = ArgentinaAllData;
+        categoryName = "argentina";
+        break;
+      case "52":
+        selectedCategory = TaiwanAllData;
+        categoryName = "taiwan";
+        break;
+      case "53":
+        selectedCategory = ChileAllData;
+        categoryName = "chile";
+        break;
+      case "54":
+        selectedCategory = RomaniaAllData;
+        categoryName = "romania";
+        break;
+      case "55":
+        selectedCategory = HungaryAllData;
+        categoryName = "hungary";
+        break;
+      case "56":
+        selectedCategory = BulgariaAllData;
+        categoryName = "bulgaria";
+        break;
+      case "57":
+        selectedCategory = CroatiaAllData;
+        categoryName = "croatia";
+        break;
+      case "58":
+        selectedCategory = LithuaniaAllData;
+        categoryName = "lithuania";
+        break;
+      case "59":
+        selectedCategory = SloveniaAllData;
+        categoryName = "slovenia";
+        break;
+      case "60":
+        selectedCategory = EstoniaAllData;
+        categoryName = "estonia";
+        break;
+      case "61":
+        selectedCategory = LuxembourgAllData;
+        categoryName = "luxembourg";
         break;
       default:
         console.log("Invalid choice. Quitting...");
