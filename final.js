@@ -67,6 +67,21 @@ const {
   SloveniaAllData,
   EstoniaAllData,
   LuxembourgAllData,
+  RussiaAllData,
+  UkraineAllData,
+  CzechiaAllData,
+  GreeceAllData,
+  BelarusAllData,
+  AustriaAllData,
+  SerbiaAllData,
+  FinlandAllData,
+  SlovakiaAllData,
+  MoldovaAllData,
+  LatviaAllData,
+  CyprusAllData,
+  MaltaAllData,
+  IcelandAllData,
+  MontenegroAllData,
 } = require("./categoryPayloads");
 
 // Create readline interface
@@ -610,8 +625,48 @@ async function main() {
       console.log("34. Manufacturing Six");
       console.log("35. France");
       console.log("36. Brazil");
+      console.log("37. India");
+      console.log("38. China");
+      console.log("39. Germany");
+      console.log("40. Brazil Part One");
+      console.log("41. Brazil Part Two");
+      console.log("42. Brazil Part Three");
+      console.log("43. Brazil Part Four");
+      console.log("44. Brazil Part Five");
+      console.log("45. Poland");
+      console.log("46. Portugal");
+      console.log("47. Philippines");
+      console.log("48. Vietnam");
+      console.log("49. Thailand");
+      console.log("50. South Africa");
+      console.log("51. Argentina");
+      console.log("52. Taiwan");
+      console.log("53. Chile");
+      console.log("54. Romania");
+      console.log("55. Hungary");
+      console.log("56. Bulgaria");
+      console.log("57. Croatia");
+      console.log("58. Lithuania");
+      console.log("59. Slovenia");
+      console.log("60. Estonia");
+      console.log("61. Luxembourg");
+      console.log("62. Russia");
+      console.log("63. Ukraine");
+      console.log("64. Czechia");
+      console.log("65. Greece");
+      console.log("66. Belarus");
+      console.log("67. Austria");
+      console.log("68. Serbia");
+      console.log("69. Finland");
+      console.log("70. Slovakia");
+      console.log("71. Moldova");
+      console.log("72. Latvia");
+      console.log("73. Cyprus");
+      console.log("74. Malta");
+      console.log("75. Iceland");
+      console.log("76. Montenegro");
 
-      categoryChoice = await prompt("Enter your choice (1-23): ");
+      categoryChoice = await prompt("Enter your choice (1-76): ");
 
       // Close readline interface
       rl.close();
@@ -865,6 +920,66 @@ async function main() {
       case "61":
         selectedCategory = LuxembourgAllData;
         categoryName = "luxembourg";
+        break;
+      case "62":
+        selectedCategory = RussiaAllData;
+        categoryName = "russia";
+        break;
+      case "63":
+        selectedCategory = UkraineAllData;
+        categoryName = "ukraine";
+        break;
+      case "64":
+        selectedCategory = CzechiaAllData;
+        categoryName = "czechia";
+        break;
+      case "65":
+        selectedCategory = GreeceAllData;
+        categoryName = "greece";
+        break;
+      case "66":
+        selectedCategory = BelarusAllData;
+        categoryName = "belarus";
+        break;
+      case "67":
+        selectedCategory = AustriaAllData;
+        categoryName = "austria";
+        break;
+      case "68":
+        selectedCategory = SerbiaAllData;
+        categoryName = "serbia";
+        break;
+      case "69":
+        selectedCategory = FinlandAllData;
+        categoryName = "finland";
+        break;
+      case "70":
+        selectedCategory = SlovakiaAllData;
+        categoryName = "slovakia";
+        break;
+      case "71":
+        selectedCategory = MoldovaAllData;
+        categoryName = "moldova";
+        break;
+      case "72":
+        selectedCategory = LatviaAllData;
+        categoryName = "latvia";
+        break;
+      case "73":
+        selectedCategory = CyprusAllData;
+        categoryName = "cyprus";
+        break;
+      case "74":
+        selectedCategory = MaltaAllData;
+        categoryName = "malta";
+        break;
+      case "75":
+        selectedCategory = IcelandAllData;
+        categoryName = "iceland";
+        break;
+      case "76":
+        selectedCategory = MontenegroAllData;
+        categoryName = "montenegro";
         break;
       default:
         console.log("Invalid choice. Quitting...");

@@ -195,6 +195,156 @@ const LuxembourgAllData = {
   ],
 };
 
+const RussiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["russia"],
+    },
+  ],
+};
+
+const UkraineAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["ukraine"],
+    },
+  ],
+};
+
+const CzechiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["czechia"],
+    },
+  ],
+};
+
+const GreeceAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["greece"],
+    },
+  ],
+};
+
+const BelarusAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["belarus"],
+    },
+  ],
+};
+
+const AustriaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["austria"],
+    },
+  ],
+};
+
+const SerbiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["serbia"],
+    },
+  ],
+};
+
+const FinlandAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["finland"],
+    },
+  ],
+};
+
+const SlovakiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["slovakia"],
+    },
+  ],
+};
+
+const MoldovaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["moldova"],
+    },
+  ],
+};
+
+const LatviaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["latvia"],
+    },
+  ],
+};
+
+const CyprusAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["cyprus"],
+    },
+  ],
+};
+
+const MaltaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["malta"],
+    },
+  ],
+};
+
+const IcelandAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["iceland"],
+    },
+  ],
+};
+
+const MontenegroAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["montenegro"],
+    },
+  ],
+};
+
 const PolandAllData = {
   filters: [
     {
@@ -2005,4 +2155,19 @@ module.exports = {
   SloveniaAllData,
   EstoniaAllData,
   LuxembourgAllData,
+  RussiaAllData,
+  UkraineAllData,
+  CzechiaAllData,
+  GreeceAllData,
+  BelarusAllData,
+  AustriaAllData,
+  SerbiaAllData,
+  FinlandAllData,
+  SlovakiaAllData,
+  MoldovaAllData,
+  LatviaAllData,
+  CyprusAllData,
+  MaltaAllData,
+  IcelandAllData,
+  MontenegroAllData,
 };
