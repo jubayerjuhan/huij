@@ -820,7 +820,7 @@ async function main() {
         break;
       case "50":
         selectedCategory = SouthAfricaAllData;
-        categoryName = "south-africa";
+        categoryName = "south africa";
         break;
       case "51":
         selectedCategory = ArgentinaAllData;
