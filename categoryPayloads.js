@@ -35,6 +35,15 @@ if (selectedCountry === "country") {
 }
 
 
+const PortugalAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["portugal"],
+    },
+  ],
+};
 const PolandAllData = {
   filters: [
     {
@@ -1829,4 +1838,5 @@ module.exports = {
   BrazilPartFour,
   BrazilPartFive,
   PolandAllData,
+  PortugalAllData,
 };

@@ -51,6 +51,7 @@ const {
   BrazilPartFour,
   BrazilPartFive,
   PolandAllData,
+  PortugalAllData,
 } = require("./categoryPayloads");
 
 // Create readline interface
@@ -162,10 +163,10 @@ async function sendNotification(message) {
       message: message,
       timestamp: new Date().toISOString(),
     }, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
     );
 
     console.log("Response:", response.data);
@@ -187,8 +188,8 @@ function stopPM2() {
         exec('pm2 stop all', (error, stdout, stderr) => {
           if (error) {
             console.log(`Error stopping PM2: ${error.message}`);
-          return;
-        }
+            return;
+          }
           console.log(`PM2 stopped: ${stdout}`);
         });
       }, 10000);
@@ -433,8 +434,7 @@ async function fetchData(pageToken = null, selectedCategory) {
     if (data.items && Array.isArray(data.items)) {
       allFetchedItems.push(...data.items);
       console.log(
-        `\x1b[32mFetched ${data.items.length} items. Current batch: ${allFetchedItems.length}, Total overall: ${
-          totalFetchCount + allFetchedItems.length
+        `\x1b[32mFetched ${data.items.length} items. Current batch: ${allFetchedItems.length}, Total overall: ${totalFetchCount + allFetchedItems.length
         }\x1b[0m`
       );
     }
@@ -604,7 +604,7 @@ async function main() {
 
     // Parse the category choice
     let selectedCategory;
-    
+
 
     switch (categoryChoice.trim()) {
       case "1":
@@ -786,6 +786,10 @@ async function main() {
       case "45":
         selectedCategory = PolandAllData;
         categoryName = "poland";
+        break;
+      case "46":
+        selectedCategory = PortugalAllData;
+        categoryName = "portugal";
         break;
       default:
         console.log("Invalid choice. Quitting...");
