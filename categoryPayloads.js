@@ -2566,4 +2566,5 @@ module.exports = {
   EgyptAllData,
   MoroccoAllData,
   AlgeriaAllData,
+  JapanAllData,
 };

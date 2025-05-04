@@ -118,6 +118,7 @@ const {
   EgyptAllData,
   MoroccoAllData,
   AlgeriaAllData,
+  JapanAllData,
 } = require("./categoryPayloads");
 
 // Create readline interface
@@ -737,8 +738,9 @@ async function main() {
       console.log("110. Egypt");
       console.log("111. Morocco");
       console.log("112. Algeria");
+      console.log("113. Japan");
 
-      categoryChoice = await prompt("Enter your choice (1-112): ");
+      categoryChoice = await prompt("Enter your choice (1-113): ");
 
       // Close readline interface
       rl.close();
@@ -1196,6 +1198,10 @@ async function main() {
       case "112":
         selectedCategory = AlgeriaAllData;
         categoryName = "algeria";
+        break;
+      case "113":
+        selectedCategory = JapanAllData;
+        categoryName = "japan";
         break;
       default:
         console.log("Invalid choice. Quitting...");
