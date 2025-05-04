@@ -665,8 +665,44 @@ async function main() {
       console.log("74. Malta");
       console.log("75. Iceland");
       console.log("76. Montenegro");
+      console.log("77. Qatar");
+      console.log("78. Kuwait");
+      console.log("79. Oman");
+      console.log("80. Jordan");
+      console.log("81. Nepal");
+      console.log("82. Sri Lanka");
+      console.log("83. South Korea");
+      console.log("84. Malaysia");
+      console.log("85. Saudi Arabia");
+      console.log("86. Iran");
+      console.log("87. Lebanon");
+      console.log("88. Palestine");
+      console.log("89. Panama");
+      console.log("90. Costa Rica");
+      console.log("91. Dominican Republic");
+      console.log("92. Trinidad and Tobago");
+      console.log("93. Jamaica");
+      console.log("94. Barbados");
+      console.log("95. Georgia");
+      console.log("96. Bahrain");
+      console.log("97. Armenia");
+      console.log("98. Azerbaijan");
+      console.log("99. Maldives");
+      console.log("100. Papua New Guinea");
+      console.log("101. Fiji");
+      console.log("102. Vanuatu");
+      console.log("103. Solomon Islands");
+      console.log("104. Colombia");
+      console.log("105. Peru");
+      console.log("106. Ecuador");
+      console.log("107. Uruguay");
+      console.log("108. Paraguay");
+      console.log("109. Bolivia");
+      console.log("110. Egypt");
+      console.log("111. Morocco");
+      console.log("112. Algeria");
 
-      categoryChoice = await prompt("Enter your choice (1-76): ");
+      categoryChoice = await prompt("Enter your choice (1-112): ");
 
       // Close readline interface
       rl.close();
@@ -980,6 +1016,150 @@ async function main() {
       case "76":
         selectedCategory = MontenegroAllData;
         categoryName = "montenegro";
+        break;
+      case "77":
+        selectedCategory = QatarAllData;
+        categoryName = "qatar";
+        break;
+      case "78":
+        selectedCategory = KuwaitAllData;
+        categoryName = "kuwait";
+        break;
+      case "79":
+        selectedCategory = OmanAllData;
+        categoryName = "oman";
+        break;
+      case "80":
+        selectedCategory = JordanAllData;
+        categoryName = "jordan";
+        break;
+      case "81":
+        selectedCategory = NepalAllData;
+        categoryName = "nepal";
+        break;
+      case "82":
+        selectedCategory = SriLankaAllData;
+        categoryName = "sri lanka";
+        break;
+      case "83":
+        selectedCategory = SouthKoreaAllData;
+        categoryName = "south korea";
+        break;
+      case "84":
+        selectedCategory = MalaysiaAllData;
+        categoryName = "malaysia";
+        break;
+      case "85":
+        selectedCategory = SaudiArabiaAllData;
+        categoryName = "saudi arabia";
+        break;
+      case "86":
+        selectedCategory = IranAllData;
+        categoryName = "iran";
+        break;
+      case "87":
+        selectedCategory = LebanonAllData;
+        categoryName = "lebanon";
+        break;
+      case "88":
+        selectedCategory = PalestineAllData;
+        categoryName = "palestine";
+        break;
+      case "89":
+        selectedCategory = PanamaAllData;
+        categoryName = "panama";
+        break;
+      case "90":
+        selectedCategory = CostaRicaAllData;
+        categoryName = "costa rica";
+        break;
+      case "91":
+        selectedCategory = DominicanRepublicAllData;
+        categoryName = "dominican republic";
+        break;
+      case "92":
+        selectedCategory = TrinidadAndTobagoAllData;
+        categoryName = "trinidad and tobago";
+        break;
+      case "93":
+        selectedCategory = JamaicaAllData;
+        categoryName = "jamaica";
+        break;
+      case "94":
+        selectedCategory = BarbadosAllData;
+        categoryName = "barbados";
+        break;
+      case "95":
+        selectedCategory = GeorgiaAllData;
+        categoryName = "georgia";
+        break;
+      case "96":
+        selectedCategory = BahrainAllData;
+        categoryName = "bahrain";
+        break;
+      case "97":
+        selectedCategory = ArmeniaAllData;
+        categoryName = "armenia";
+        break;
+      case "98":
+        selectedCategory = AzerbaijanAllData;
+        categoryName = "azerbaijan";
+        break;
+      case "99":
+        selectedCategory = MaldivesAllData;
+        categoryName = "maldives";
+        break;
+      case "100":
+        selectedCategory = PapuaNewGuineaAllData;
+        categoryName = "papua new guinea";
+        break;
+      case "101":
+        selectedCategory = FijiAllData;
+        categoryName = "fiji";
+        break;
+      case "102":
+        selectedCategory = VanuatuAllData;
+        categoryName = "vanuatu";
+        break;
+      case "103":
+        selectedCategory = SolomonIslandsAllData;
+        categoryName = "solomon islands";
+        break;
+      case "104":
+        selectedCategory = ColombiaAllData;
+        categoryName = "colombia";
+        break;
+      case "105":
+        selectedCategory = PeruAllData;
+        categoryName = "peru";
+        break;
+      case "106":
+        selectedCategory = EcuadorAllData;
+        categoryName = "ecuador";
+        break;
+      case "107":
+        selectedCategory = UruguayAllData;
+        categoryName = "uruguay";
+        break;
+      case "108":
+        selectedCategory = ParaguayAllData;
+        categoryName = "paraguay";
+        break;
+      case "109":
+        selectedCategory = BoliviaAllData;
+        categoryName = "bolivia";
+        break;
+      case "110":
+        selectedCategory = EgyptAllData;
+        categoryName = "egypt";
+        break;
+      case "111":
+        selectedCategory = MoroccoAllData;
+        categoryName = "morocco";
+        break;
+      case "112":
+        selectedCategory = AlgeriaAllData;
+        categoryName = "algeria";
         break;
       default:
         console.log("Invalid choice. Quitting...");

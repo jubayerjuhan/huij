@@ -345,6 +345,366 @@ const MontenegroAllData = {
   ],
 };
 
+const QatarAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["qatar"],
+    },
+  ],
+};
+
+const KuwaitAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["kuwait"],
+    },
+  ],
+};
+
+const OmanAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["oman"],
+    },
+  ],
+};
+
+const JordanAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["jordan"],
+    },
+  ],
+};
+
+const NepalAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["nepal"],
+    },
+  ],
+};
+
+const SriLankaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["sri lanka"],
+    },
+  ],
+};
+
+const SouthKoreaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["south korea"],
+    },
+  ],
+};
+
+const MalaysiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["malaysia"],
+    },
+  ],
+};
+
+const SaudiArabiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["saudi arabia"],
+    },
+  ],
+};
+
+const IranAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["iran"],
+    },
+  ],
+};
+
+const LebanonAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["lebanon"],
+    },
+  ],
+};
+
+const PalestineAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["palestine"],
+    },
+  ],
+};
+
+const PanamaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["panama"],
+    },
+  ],
+};
+
+const CostaRicaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["costa rica"],
+    },
+  ],
+};
+
+const DominicanRepublicAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["dominican republic"],
+    },
+  ],
+};
+
+const TrinidadAndTobagoAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["trinidad and tobago"],
+    },
+  ],
+};
+
+const JamaicaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["jamaica"],
+    },
+  ],
+};
+
+const BarbadosAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["barbados"],
+    },
+  ],
+};
+
+const GeorgiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["georgia"],
+    },
+  ],
+};
+
+const BahrainAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["bahrain"],
+    },
+  ],
+};
+
+const ArmeniaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["armenia"],
+    },
+  ],
+};
+
+const AzerbaijanAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["azerbaijan"],
+    },
+  ],
+};
+
+const MaldivesAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["maldives"],
+    },
+  ],
+};
+
+const PapuaNewGuineaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["papua new guinea"],
+    },
+  ],
+};
+
+const FijiAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["fiji"],
+    },
+  ],
+};
+
+const VanuatuAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["vanuatu"],
+    },
+  ],
+};
+
+const SolomonIslandsAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["solomon islands"],
+    },
+  ],
+};
+
+const ColombiaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["colombia"],
+    },
+  ],
+};
+
+const PeruAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["peru"],
+    },
+  ],
+};
+
+const EcuadorAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["ecuador"],
+    },
+  ],
+};
+
+const UruguayAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["uruguay"],
+    },
+  ],
+};
+
+const ParaguayAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["paraguay"],
+    },
+  ],
+};
+
+const BoliviaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["bolivia"],
+    },
+  ],
+};
+
+const EgyptAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["egypt"],
+    },
+  ],
+};
+
+const MoroccoAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["morocco"],
+    },
+  ],
+};
+
+const AlgeriaAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["algeria"],
+    },
+  ],
+};
+
 const PolandAllData = {
   filters: [
     {
@@ -2170,4 +2530,40 @@ module.exports = {
   MaltaAllData,
   IcelandAllData,
   MontenegroAllData,
+  QatarAllData,
+  KuwaitAllData,
+  OmanAllData,
+  JordanAllData,
+  NepalAllData,
+  SriLankaAllData,
+  SouthKoreaAllData,
+  MalaysiaAllData,
+  SaudiArabiaAllData,
+  IranAllData,
+  LebanonAllData,
+  PalestineAllData,
+  PanamaAllData,
+  CostaRicaAllData,
+  DominicanRepublicAllData,
+  TrinidadAndTobagoAllData,
+  JamaicaAllData,
+  BarbadosAllData,
+  GeorgiaAllData,
+  BahrainAllData,
+  ArmeniaAllData,
+  AzerbaijanAllData,
+  MaldivesAllData,
+  PapuaNewGuineaAllData,
+  FijiAllData,
+  VanuatuAllData,
+  SolomonIslandsAllData,
+  ColombiaAllData,
+  PeruAllData,
+  EcuadorAllData,
+  UruguayAllData,
+  ParaguayAllData,
+  BoliviaAllData,
+  EgyptAllData,
+  MoroccoAllData,
+  AlgeriaAllData,
 };
