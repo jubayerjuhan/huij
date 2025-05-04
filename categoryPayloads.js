@@ -764,6 +764,15 @@ const GermanyAllData = {
     },
   ],
 };
+const JapanAllData = {
+  filters: [
+    {
+      field: "location_country",
+      operator: "ANY_OF_VALUES",
+      values: ["japan"],
+    },
+  ],
+};
 
 const BrazilPartOne = {
   filters: [
