@@ -119,6 +119,11 @@ const {
   MoroccoAllData,
   AlgeriaAllData,
   JapanAllData,
+  SouthAfricaPartOne,
+  SouthAfricaPartTwo,
+  SouthAfricaPartThree,
+  SouthAfricaPartFour,
+  SouthAfricaPartFive,
 } = require("./categoryPayloads");
 
 // Create readline interface
@@ -1203,6 +1208,27 @@ async function main() {
         selectedCategory = JapanAllData;
         categoryName = "japan";
         break;
+      case "114":
+        selectedCategory = SouthAfricaPartOne;
+        categoryName = "south-africa-part-one";
+        break;
+      case "115":
+        selectedCategory = SouthAfricaPartTwo;
+        categoryName = "south-africa-part-two";
+        break;
+      case "116":
+        selectedCategory = SouthAfricaPartThree;
+        categoryName = "south-africa-part-three";
+        break;
+      case "117":
+        selectedCategory = SouthAfricaPartFour;
+        categoryName = "south-africa-part-four";
+        break;
+      case "118":
+        selectedCategory = SouthAfricaPartFive;
+        categoryName = "south-africa-part-five";
+        break;
+
       default:
         console.log("Invalid choice. Quitting...");
         process.exit(1);
